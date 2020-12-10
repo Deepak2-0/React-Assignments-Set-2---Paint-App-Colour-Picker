@@ -7,7 +7,7 @@ export default function Selection(props) {
   return (
     <>
       <div
-        className="container"
+        className="fix-box"
         style={color}
         onClick={() => applyColor(setColor)}
       >
